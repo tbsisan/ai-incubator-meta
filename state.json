@@ -1,0 +1,18 @@
+{
+  "title": "AI Incubator Meta",
+  "slug": "ai-incubator-meta",
+  "status": "active",
+  "stage": "built",
+  "priority": 2,
+  "owner": "incubator",
+  "next_action": "run_opportunity_scan_pass",
+  "last_pass_type": "bootstrap",
+  "last_updated": "2026-06-05T05:29:20Z",
+  "tags": [
+    "meta",
+    "incubator",
+    "built-project",
+    "self-improvement"
+  ],
+  "verdict": "pursue"
+}

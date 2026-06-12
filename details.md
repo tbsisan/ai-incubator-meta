@@ -8,6 +8,8 @@ Use this file for working product, strategy, pilot, and implementation decisions
 - Prefer concise bullets over long brainstorming paragraphs.
 - Put detailed system/data modeling into `schema*.md` once it becomes structured enough to deserve its own doc.
 - Promote only the stable summary into `brief.md`.
+- The sections below are a starting scaffold, not a rigid schema.
+- Add, rename, remove, or leave empty sections when a project-specific decision area needs a clearer home.
 
 ---
 
@@ -43,6 +45,7 @@ Use this file for working product, strategy, pilot, and implementation decisions
 - Phase 2: <choice>
 - Phase 3: <choice>
 
+
 ## Workflow and ops decisions
 
 ### User flow
@@ -52,10 +55,12 @@ Use this file for working product, strategy, pilot, and implementation decisions
 - Payment flow: <choice>
 - Failure handling: <choice>
 
-### Human-in-the-loop / automation
+### Operations: Human vs machine
 - **Status:** <Decided / Tentative / Open>
-- <choice>
-- <choice>
+- Automated/system-handled work: <what the product or scripts handle>
+- Human judgment or manual work: <review, curation, exception handling, support, QA>
+- Ongoing maintenance burden: <recurring human upkeep after launch>
+- Automation later: <what could be automated after the workflow is proven>
 
 ## Data-source decisions
 
